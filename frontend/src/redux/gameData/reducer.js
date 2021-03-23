@@ -20,12 +20,12 @@ export default function Employees(state = initialState, action) {
       return {
         ...state,
         loading: true,
+        gameDetails: action.payload,
       };
     case actions.POST_GAMEDATA_SUCCESS:
       return {
         ...state,
         loading: false,
-        gameDetails: action.payload,
       };
     case actions.POST_GAMEDATA_FAILED:
       return {
