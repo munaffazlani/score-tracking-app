@@ -1,0 +1,8 @@
+.App {
+  padding: 50px;
+}
+.centerScreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
